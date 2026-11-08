@@ -59,6 +59,9 @@ pip-wheel-metadata/
 *.swo
 *~
 
+# DeepEval
+.deepeval/
+
 # OS
 .DS_Store
 Thumbs.db
