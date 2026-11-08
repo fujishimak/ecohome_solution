@@ -49,7 +49,7 @@ pip install -r requirements.txt
 
 ### 2. Set Environment Variables
 
-Create a `.env` file with your Vocareum API key:
+This project assumes the use of Vocareum but any LLM backend will likely work. Create a `.env` file with your Vocareum API key:
 
 ```bash
 VOCAREUM_API_KEY=your_vocareum_api_key_here
@@ -99,16 +99,6 @@ The Energy Advisor can answer questions like:
 - `temperature_c`: Temperature at time of generation
 - `solar_irradiance`: Solar irradiance level
 
-## Learning Objectives
-
-This project helps students learn:
-
-1. **Database Design**: Creating schemas for energy management systems
-2. **API Integration**: Working with external weather and pricing APIs
-3. **RAG Implementation**: Building retrieval-augmented generation pipelines
-4. **Agent Development**: Creating intelligent agents with tool usage
-5. **Evaluation Methods**: Testing and measuring agent performance
-6. **Energy Optimization**: Understanding smart home energy management
 
 ## Key Technologies
 
@@ -136,15 +126,3 @@ The agent is evaluated on:
 3. Set up your environment variables
 4. Run the notebooks in sequence
 5. Test the agent with your own questions
-
-## Contributing
-
-This is a learning project. Feel free to:
-- Add new tools and capabilities
-- Improve the evaluation metrics
-- Enhance the RAG pipeline
-- Add more sophisticated optimization algorithms
-
-## License
-
-This project is for educational purposes as part of the Udacity Course 2 curriculum.

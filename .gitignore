@@ -60,7 +60,7 @@ pip-wheel-metadata/
 *~
 
 # DeepEval
-.deepeval/
+.deepeval
 
 # OS
 .DS_Store
