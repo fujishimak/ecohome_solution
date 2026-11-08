@@ -4,8 +4,10 @@ version = "0.1.0"
 requires-python = ">=3.13"
 dependencies = [
     "chromadb==1.1.0",
+    "deepeval>=3.9.6",
     "httpx==0.28.1",
     "ipykernel==6.29.5",
+    "ipywidgets>=8.1.9",
     "langchain==0.3.27",
     "langchain-chroma==0.2.6",
     "langchain-community==0.3.29",
@@ -14,6 +16,7 @@ dependencies = [
     "langchain-text-splitters==0.3.11",
     "langgraph==0.6.7",
     "langgraph-prebuilt==0.6.4",
+    "mlflow>=3.18.0",
     "pandas==2.3.2",
     "python-dotenv==1.1.1",
     "ragas==0.3.5",
