@@ -40,7 +40,7 @@ class Agent:
         Returns:
             str: The advisor's response with recommendations
         """
-
+        # Pass the params as messages (we do not have ChatPromptTemplate in this example)
         messages = []
         if context:
             # Add some context to the question as a system message
